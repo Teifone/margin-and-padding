@@ -1,0 +1,96 @@
+:root{
+    --size-texto: 2rem;
+    --font-family-cursive:'Pacifico', cursive;
+    --margin-separate: 3rem
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    width: 100%;
+}
+
+h1{
+    font-size: 6rem;
+    display: block;
+    color: forestgreen;
+    margin-bottom: var(--margin-separate);
+}
+
+p{
+    display: block;
+    text-align: justify;
+    font-size: var(--size-texto);
+    margin-bottom: var(--margin-separate);
+}
+
+.spanRedNegrilla{
+    font-weight: bold;
+    color: red;
+}
+
+.spanRedUnderline{
+    color: red;
+    text-decoration: underline;
+}
+
+.spanBlueUnderlineRed{
+    color: blue;
+    font-style: italic;
+}
+
+.spanPurple{
+    color: purple;
+}
+
+h2{
+    font-size: 4rem;
+    color: blue;
+    display: block;
+    margin-bottom: var(--margin-separate);
+}
+
+h3{
+    font-size: var(--size-texto);
+    text-align: center;
+    color: blue;
+}
+
+.sectionTable{
+    display: inline-block;
+}
+
+table{
+    margin-bottom: var(--margin-separate);
+}
+
+table,th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th{
+    font-size: var(--size-texto);
+    padding: 0.5rem;
+}
+
+.spanTable1{
+    font-style: italic;
+}
+
+.textOrange,.spanTable2{
+    color:orange
+}
+
+.textGreen{
+    color: green;
+}
+
+.textRed{
+    color: red;
+}
