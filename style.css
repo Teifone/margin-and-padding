@@ -1,7 +1,8 @@
 :root{
     --size-texto: 2rem;
     --font-family-cursive:'Pacifico', cursive;
-    --margin-separate: 3rem
+    --margin-separate: 3rem;
+    --border:0.3rem solid black;
 }
 
 *{
@@ -12,14 +13,17 @@
 
 html{
     font-size: 62.5%;
-    width: 100%;
+    width: 99.9%;
+    border: var(--border);
+    margin:0.1rem
 }
 
 h1{
     font-size: 6rem;
     display: block;
     color: forestgreen;
-    margin-bottom: var(--margin-separate);
+    margin: var(--margin-separate) 0rem;
+    border: var(--border);
 }
 
 p{
@@ -27,25 +31,30 @@ p{
     text-align: justify;
     font-size: var(--size-texto);
     margin-bottom: var(--margin-separate);
+    border: var(--border);
 }
 
 .spanRedNegrilla{
     font-weight: bold;
     color: red;
+    border: var(--border);
 }
 
 .spanRedUnderline{
     color: red;
     text-decoration: underline;
+    border: var(--border);
 }
 
 .spanBlueUnderlineRed{
     color: blue;
     font-style: italic;
+    border: var(--border);
 }
 
 .spanPurple{
     color: purple;
+    border: var(--border);
 }
 
 h2{
@@ -53,25 +62,28 @@ h2{
     color: blue;
     display: block;
     margin-bottom: var(--margin-separate);
+    border: var(--border);
 }
 
 h3{
     font-size: var(--size-texto);
     text-align: center;
     color: blue;
+    border: var(--border);
 }
 
 .sectionTable{
     display: inline-block;
 }
 
-table{
-    margin-bottom: var(--margin-separate);
-}
-
 table,th{
     border-collapse: collapse;
     border: 1px solid black;
+}
+
+.parrafos{
+    border: var(--border);
+    display:block;
 }
 
 th{
@@ -81,10 +93,15 @@ th{
 
 .spanTable1{
     font-style: italic;
+    border: var(--border);
 }
 
 .textOrange,.spanTable2{
     color:orange
+}
+
+.spanTable2{
+    border: var(--border);
 }
 
 .textGreen{
@@ -99,10 +116,20 @@ th{
     color:rgb(166, 187, 62);
 }
 
+.uno{
+    margin-top: var(--margin-separate);
+}
+
+.uno span{
+    border: var(--border);
+}
+
 .dos span{
     color:fuchsia;
+    border: var(--border);
 }
 
 .tres span{
     color: green;
+    border: var(--border);
 }
