@@ -3,6 +3,8 @@
     --font-family-cursive:'Pacifico', cursive;
     --margin-separate: 3rem;
     --border:0.3rem solid black;
+    --margin-left:1rem;
+    --margin-right:40rem;
 }
 
 *{
@@ -24,6 +26,8 @@ h1{
     color: forestgreen;
     margin: var(--margin-separate) 0rem;
     border: var(--border);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
 }
 
 p{
@@ -32,6 +36,8 @@ p{
     font-size: var(--size-texto);
     margin-bottom: var(--margin-separate);
     border: var(--border);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
 }
 
 .spanRedNegrilla{
@@ -63,6 +69,8 @@ h2{
     display: block;
     margin-bottom: var(--margin-separate);
     border: var(--border);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
 }
 
 h3{
